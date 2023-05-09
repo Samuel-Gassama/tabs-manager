@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <template id="li_template">
+      <li>
+        <h3 class="title">Tab Title</h3>
+        <button class="delete-tab">Delete</button>
+      </li>
+    </template>
+
+    <template id="folder_template">
+      <li>
+        <h3 class="folder-name">Folder Name</h3>
+        <p class="folder-tabs">Tab Titles</p>
+        <div class="buttons">
+          <button class="open-folder">Open</button>
+          <button class="delete-folder">Delete</button>
+        </div>
+      </li>
+    </template>
+
+    <h1>Saved Tabs</h1>
+    <div class="buttons">
+      <button id="save-tabs">Save tabs</button>
+      <button id="open-all-tabs">Open All</button>
+      <!-- <button id="group-tabs">Group Tabs</button> -->
+    </div>
+    <div id="folder-container">
+      <h2>My Folders</h2>
+      <ul></ul>
+    </div>
+
+    <script src="./popup.js" type="module"></script>
+  </body>
+</html>

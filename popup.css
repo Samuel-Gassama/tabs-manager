@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.folder-name {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.folder-tabs {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+}
+
+button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #004499;
+}
+
+.delete-folder {
+  background-color: #dc3545;
+}
+
+.delete-folder:hover {
+  background-color: #a51f32;
+}
+
+.delete-folder:active {
+  background-color: #801821;
+}
