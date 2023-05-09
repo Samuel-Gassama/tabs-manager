@@ -70,3 +70,7 @@ button:active {
 .delete-folder:active {
   background-color: #801821;
 }
+.clickable {
+  cursor: pointer;
+  text-decoration-thickness: 1px;
+}
