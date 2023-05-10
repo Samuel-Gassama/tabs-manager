@@ -44,7 +44,15 @@
         await saveFolders(folders.filter((f) => f.name !== folder.name));
         location.reload();
       });
-
+      
+      element.querySelector(".folder-name").addEventListener("click", async () => {
+        const newName = prompt("Enter a new name for the folder:", folder.name);
+        if (newName) {
+          folder.name = newName;
+          await saveFolders(folders);
+          location.reload();
+        }
+      });
       folderElements.add(element);
     }
 
