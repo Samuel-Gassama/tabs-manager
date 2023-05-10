@@ -1,7 +1,7 @@
 # tabs-manager
 # Tabs Manager Extension
 
-![Tabs Manager Logo](/path/to/logo.png)
+![Tabs Manager Logo]((https://github.com/Samuel-Gassama/tabs-manager/assets/81109272/e039807f-100b-456d-a217-17f80ed0c452)
 
 The Tabs Manager Extension is a Chrome browser extension that helps you organize and manage your open tabs more efficiently. It allows you to save and categorize tabs into folders for easy access and retrieval.
 
